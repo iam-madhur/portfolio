@@ -16,6 +16,7 @@ import {
   SiBootstrap,
   SiAxios,
   SiPostgresql,
+  SiNextdotjs,
 } from "react-icons/si";
 import { TbBrandCpp } from "react-icons/tb";
 
@@ -45,6 +46,9 @@ const Techstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
